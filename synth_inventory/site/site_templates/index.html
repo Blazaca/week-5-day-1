@@ -1,0 +1,48 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="container">
+    <header class="row">
+        <div class="col-12 col-md-6">
+            <img src="../../static/images/moog_one.jpg" alt="moog one" class="header-img">
+        </div>
+        <div class="col-12 col-md-6" id="header-text">
+            <h2>Help us create the largest database of FREE synth patches</h2>
+            <h5>Be a part of the tool that will unlock musical freedom!</h5>
+            <button class="btn btn-primary">View Our Docs</button>
+            <button class="btn btn-primary">Join Our Slack</button>
+        </div>
+
+    </header>
+    <section class="row">
+        <div class="col-12 line">
+            <img src="../../static/images/synth_line_graphic.png" alt="line-graphic" class="image-line-break">
+        </div>
+    </section>
+    <section class="row" id="features">
+        <div class="col-12 col-md-4 feature" id="">
+            <img src="../../static/images/modular_img.png" alt="" id="featureimg1">
+        </div>
+        <div class="col-12 col-md-4 feature" id="">
+            <img src="../../static/images/juno_img.png" alt="" id="featureimg2">
+        </div>
+        <div class="col-12 col-md-4 feature" id="">
+            <img src="../../static/images/file_img.png" alt="" id="featureimg3">
+        </div>
+    </section>
+    <section class="row" id="features-text">
+        <div class="col-12 col-md-4 feature" id="">
+            <h4>Patches</h4>
+            <p>Share with the world your crazy patches!</p>
+        </div>
+        <div class="col-12 col-md-4 feature" id="">
+            <h4>Hardware Intergration</h4>
+            <p>Catagories for files that work with hardware</p>
+        </div>
+        <div class="col-12 col-md-4 feature" id="">
+            <h4>In Browser File Manager</h4>
+            <p>No clunky interface.<br> Just pure patch management bliss...</p>
+        </div>
+    </section>
+</div>
+{% endblock content %}
