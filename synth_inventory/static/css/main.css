@@ -150,7 +150,10 @@ footer{
 }
 
 .copyright{
-    padding-bottom: 5vh;
+    padding-bottom: 15vh;
 }
 
+#login-field{
+    text-align: center;
+}
 /* #494544 the brown */
